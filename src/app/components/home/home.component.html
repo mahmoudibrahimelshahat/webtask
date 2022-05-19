@@ -1,0 +1,25 @@
+<div class="container-fluid">
+    <div class="container">
+<h5 *ngIf="user$ | async as user"> Welcome {{user.displayName}}</h5>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="imgwithtxt">
+                    <img src="assets/3.png" alt="heart arrow"> 
+                    <h5>WE GIVE YOU THE BEST!</h5>
+                </div>
+                <h1>
+                    We Provide Medical <br>
+                    Services That You <br>
+                    Can Trust
+                </h1>
+                <p>i realized that becoming a doctor, i can only help a small community. But by <br>
+                    becoming a doctor, i can help my whole country</p>
+                <button routerLink="/login">SEE HOW WE HELP YOU</button>
+            </div>
+            <div class="col-md-6">
+                <img class="lol" src="assets/lol.png" alt="Doctor help patient">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------- -->

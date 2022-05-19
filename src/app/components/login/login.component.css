@@ -1,0 +1,371 @@
+.container-fluid{
+    padding-top: 30px;
+}
+.insidegrid{
+    top:38%;
+    position: relative;
+}
+.bgForLeftSection{
+    background-image: url('src/assets/login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+}
+.bgForLeftSection h6{
+    color: white;
+}
+.bgForLeftSection img{
+    width: 185px;
+    margin: 10px 0px 10px 56px;
+}
+.all{
+        background: white;
+        -webkit-box-shadow: 7px 6px 15px -3px rgb(0 0 0 / 66%);
+        -moz-box-shadow: 7px 6px 15px -3px rgba(0,0,0,0.66);
+        box-shadow: 7px 6px 15px -3px rgb(0 0 0 / 66%);
+        border-radius: 0px 15px 15px 0;
+    }
+.header{
+    padding-top: 50px;
+}
+.header img{
+    width: 185px;
+    margin: 10px 0px 10px 165px;
+}
+
+.inpField{
+    position: relative;
+}
+.ic1{
+    position: absolute;
+    top: 17px;
+    left: 117px;
+    z-index: 2;
+}
+.ic2{
+    position: absolute;
+    top: 29px;
+    left: 117px;
+    z-index: 2;
+}
+form input::placeholder{
+    padding-left: 20px;
+}
+form input{
+    padding: 10px;
+    padding-left: 30px;
+    transform: translate(35%, 0px);
+    width: 58%;
+    outline: none;
+}
+.lastinp{
+    margin: 10px 0;
+}
+.col-md-5 small{
+    margin-left: 108px;
+}
+
+form button {
+    margin: 15px 0px 10px 109px;
+    width: 58%;
+    background-color: #2E3190;
+}
+
+.afterForm{
+    display: flex;
+    margin: 10px 0 10px 100px;
+}
+.checkbox{
+    display: flex;
+    margin-right: 50px;
+}
+.checkbox input{
+    margin: 8px 10px 0 0;
+}
+.icons i{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.icons button{
+    background: transparent;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid #b9b8b8;
+    margin: 0 14px;
+    padding: 10px 16px;
+}
+.lineparagraph{
+    position: relative;
+    text-align: center;
+}
+.lineparagraph::before{
+        content: "";
+        display: block;
+        width: 130px;
+        height: 1px;
+        background: #afa5a5;
+        left: 77px;
+        top: 55%;
+        position: absolute;
+}
+.lineparagraph:after {
+        content: "";
+        display: block;
+        width: 130px;
+        height: 1px;
+        background: #afa5a5;
+        right: 90px;
+        top: 55%;
+        position: absolute;
+}
+.firstparagraph{
+    text-align: center;
+}
+.icons{
+    text-align: center;
+}
+.footer{
+    padding-bottom: 50px;
+}
+.terms{
+    color: #2E3190;
+    font-weight: bold;
+}
+.lastone{
+    font-size: 11px;
+    text-align: center;
+    padding-top: 20px;
+}
+small{
+    margin-left: 110px;
+}
+
+
+/* ---------------------------- */
+
+ @media  (min-width: 320px) and (max-width: 575px) {
+     .container-fluid{
+         padding: 0;
+     }
+     .bgForLeftSection{
+         border-radius: 0;
+     }
+    .insidegrid{
+        top: 0;
+        padding: 20px 0;
+    }
+    .header img{
+        margin: 10px 0px 10px 42px;
+    }
+    .all{
+        border-radius: 0;
+        box-shadow: none;
+    }
+    form input{
+        transform: none;
+        width: 100%;
+    }
+    .ic1,.ic2,.ic3{
+        left: 11px;
+    }
+    form button{
+        margin: 15px 0px 10px 0;
+        width: 100%;    
+    }
+    .afterForm{
+        margin: 10px 0 10px 0px;
+    }
+    .lineparagraph::before{
+        width: 90px;
+        left: 11px;
+    }
+    .lineparagraph:after{
+        width: 90px;
+        right: 11px;
+    }
+    small{
+        margin: 0;
+    }
+ }
+ @media (min-width: 576px) and (max-width: 767px) { 
+ .container-fluid{
+        padding: 0;
+    }
+    .bgForLeftSection{
+        border-radius: 0;
+        width: 100%;
+        margin: 0;
+    }
+    .bgForLeftSection img{
+        width: 184px;
+        margin: 10px 0px 10px 187px;
+    }
+   .insidegrid{
+       top: 0;
+       padding: 20px 0;
+   }
+   .header img{
+    margin: 10px 0px 10px 187px;
+   }
+   .afterForm{
+    justify-content: space-between;
+   }
+   .all{
+       border-radius: 0;
+       margin: auto;
+       box-shadow: none;
+   }
+   form input{
+       transform: none;
+       width: 100%;
+   }
+   .ic1,.ic2,.ic3{
+       left: 11px;
+   }
+   form button{
+       margin: 15px 0px 10px 0;
+       width: 100%;    
+   }
+   .afterForm{
+       margin: 10px 0 10px 0px;
+   }
+   .lineparagraph::before{
+    width: 199px;
+    left: 15px;
+   }
+   .lineparagraph:after{
+       width: 199px;
+       right: 15px;
+   }
+   small{
+    margin: 0;
+}
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .container-fluid{
+        padding: 0;
+    }
+    .bgForLeftSection{
+        border-radius: 0;
+        width: 100%;
+        margin: 0;
+    }
+    .bgForLeftSection img{
+        width: 184px;
+        margin: 10px 0px 10px 267px;
+    }
+   .insidegrid{
+       top: 0;
+       padding: 20px 0;
+   }
+   .header img{
+    margin: 10px 0px 10px 245px;
+   }
+   .afterForm{
+    justify-content: space-between;
+   }
+   .all{
+       border-radius: 0;
+       margin: auto;
+       box-shadow: none;
+   }
+   form input{
+       transform: none;
+       width: 100%;
+   }
+   .ic1,.ic2,.ic3{
+       left: 11px;
+   }
+   form button{
+       margin: 15px 0px 10px 0;
+       width: 100%;    
+   }
+   .afterForm{
+       margin: 10px 0 10px 0px;
+   }
+   .lineparagraph::before{
+    width: 199px;
+    left: 87px;
+   }
+   .lineparagraph:after{
+       width: 199px;
+       right: 87px;
+   }
+   small{
+    margin: 0;
+}
+} 
+
+
+ @media (min-width: 992px) and (max-width: 1199px){ 
+    .bgForLeftSection img{
+        margin: 10px 0px 10px 24px;
+    }
+    .header img{
+        margin: 10px 0px 10px 77px;
+    }
+    .ic1,.ic2,.ic3{
+        left: 52px;
+    }
+    form input{
+        padding: 10px;
+        padding-left: 30px;
+        transform: translate(14%, 0px);
+        width: 77%;
+        outline: none;
+    }
+    form button{
+        margin: 15px 0px 10px 38px;
+    width: 78%;
+    }
+    small{
+        margin-left: 44px;
+    }
+    .afterForm{
+        margin: 10px 0 10px 25px;
+    }
+    .lineparagraph::before{
+        left: 12px;
+    }
+    .lineparagraph::after{
+        right: 12px;
+    }
+    
+}
+
+
+@media (min-width: 1200px) and (max-width:1439px){ 
+    .bgForLeftSection img{
+        margin: 10px 0px 10px 56px;
+    }
+    .header img{
+        margin: 10px 0px 10px 140px;
+    }
+    .ic1,.ic2,.ic3{
+        left: 60px;
+    }
+    form input{
+        padding: 10px;
+        padding-left: 30px;
+        transform: translate(14%, 0px);
+        width: 77%;
+        outline: none;
+    }
+    form button{
+        margin: 15px 0px 10px 38px;
+    width: 78%;
+    }
+    small{
+        margin-left: 44px;
+    }
+    .afterForm{
+        margin: 10px 0 10px 25px;
+    }
+    .lineparagraph::before{
+        left: 12px;
+    }
+    .lineparagraph::after{
+        right: 12px;
+    }
+ }  

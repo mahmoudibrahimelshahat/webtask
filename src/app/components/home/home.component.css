@@ -1,0 +1,110 @@
+.container-fluid{ 
+    background-image: url('src/assets/2.jpg');  
+    padding-top: 100px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.container-fluid .container{
+    margin-top: 36px;
+} 
+.container-fluid .imgwithtxt{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.container-fluid .imgwithtxt h5{
+    font-size: 15px;
+    color: #524f4f;
+    font-weight: 400;
+    padding-top: 14px;
+}
+.container-fluid h1{
+    white-space: nowrap;
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 600; 
+    color: rgb(0, 46, 58);
+    letter-spacing: 0px;
+    font-family: Saira;
+    opacity: 1;
+}
+.container-fluid p{
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    color: rgb(157, 171, 175);
+    font-family: Ubuntu;
+}
+.container-fluid .lol{
+    width: 100%; 
+}
+.container-fluid button{
+    background-color: #00D6A3;
+    outline: none;
+    border: 0;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.container-fluid button:hover{
+    background-color: #033b4a;
+    border: 0;
+    color: #fff;
+    transition: 0.5s;
+}
+/* ------------ */
+@media (min-width: 320px) and (max-width:359px){
+   .container-fluid h1{
+    font-size: 30px;
+    line-height: 1;
+   }
+   .container-fluid p{
+    font-size: 9px;
+    line-height: 2;
+   }
+}
+@media (min-width: 360px) and (max-width:374px){
+    .container-fluid h1{
+        font-size: 30px;
+        line-height: 1;
+       }
+       .container-fluid p{
+        font-size: 10px;
+        line-height: 2;
+       }
+}
+@media (min-width: 375px) and (max-width:410px){
+    .container-fluid h1{
+        font-size: 33px;
+        line-height: 1;
+       }
+       .container-fluid p{
+        font-size: 11px;
+        line-height: 2;
+       }
+}
+@media (min-width: 411px) and (max-width: 575px) { 
+    .container-fluid h1{
+        font-size: 34px;
+        line-height: 1;
+       }
+       .container-fluid p{
+        font-size: 12px;
+        line-height: 2;
+       }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .container-fluid h1{
+        font-size: 34px;
+        line-height: 1;
+       }
+       .container-fluid p{
+        font-size: 12px;
+        line-height: 2;
+       }
+} 
